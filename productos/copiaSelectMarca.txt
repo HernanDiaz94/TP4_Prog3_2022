@@ -1,0 +1,23 @@
+<h2>Filtros:</h2>
+    <form action="mostrarFiltrado.php" method="POST">
+        <label for="marcaFiltro">Filtrar por Marca:</label><br>
+        
+        
+        <label for="marcas"><p>Marca</p>
+            <select name="marcas" id="marcas">
+                
+                <?php 
+                    include '../conexion.php';
+                    $consulta = "SELECT * from marcas";
+                    $ejecutar = mysqli_query($conexion,$consulta) or die(mysqli_error($conexion));
+                ?>
+                
+                <?php foreach ($ejecutar as $opciones): ?>
+                    <option value="<?php echo $opciones['id']; ?>"> <?php echo $opciones['nombre']; ?> </option>
+                <?php endforeach ?>
+            
+            </select>
+        </label><br><br>
+
+        <input type="submit" value="Filtrar">
+    </form> 

@@ -1,0 +1,176 @@
+/* CSS Document */
+
+body {
+  text-align: center;
+
+  background-color: #000000;
+
+  font-family: Arial;
+
+  color: #ffffff;
+
+  line-height: 2em;
+
+  font-size: 16px;
+}
+
+/*Decora los enlaces*/
+a:link,
+a:visited {
+  color: #a8d3e7;
+}
+
+a:hover {
+  color: #3ebcef;
+}
+
+/* .............Top Nav.................. */
+
+#nav {
+  margin-bottom: 0 auto;
+  padding: 0 auto;
+}
+
+ul#menu {
+  margin: 0 auto;
+
+  padding: 0 auto;
+
+  list-style-type: none;
+
+  position: relative;
+
+  display: block;
+
+  height: 40px;
+
+  font-size: 13px;
+
+  font-weight: bold;
+
+  background-color: #333333;
+}
+
+#menu li {
+  display: block;
+
+  float: center;
+
+  margin: 0 auto;
+
+  padding: 0 ;
+}
+
+#menu li a {
+  display: block;
+
+  float: center;
+
+  color: #ffffff;
+
+  text-decoration: none;
+
+  font-weight: bold;
+
+  padding: 10px 20px 10px 20px;
+
+  height: 30px;
+
+  margin: 0 auto;
+}
+
+#menu li a:hover {
+  background-color: #e3007a;
+}
+
+ul li {
+  list-style: none;
+}
+
+#redes a {
+  padding: 0px auto;
+}
+
+/* ......................................Content........................................................... */
+
+h1 {
+  color: #cccccc;
+
+  padding-top: 5px;
+
+  height: 60px;
+
+  font-size: 30px;
+
+  letter-spacing: 10px;
+
+  margin: 40px 0 20px 0;
+}
+
+h2 {
+  color: #00e31e;
+
+  padding-top: 50px;
+
+  margin: 20px auto;
+
+  font-size: 20px;
+
+  letter-spacing: 5px;
+}
+
+
+table {
+  
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+#cabecera {
+  color: #00e31e;
+  background-color: #000;
+  padding: 0px;
+}
+
+#banner img {
+  width: 400px;
+  height: 150px;
+}
+
+#contenedor {
+  margin: 0 auto;
+  width: 800px;
+  border: 10px solid #474646;
+}
+
+#contenido {
+  background-color: #222;
+  padding: 20px auto;
+  margin: 20px auto;
+
+}
+
+#pie {
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  align-content: flex-end;
+  background-color: #bbb;
+  color: #000;
+  padding: 10px;
+  text-align: center; 
+}
+
+/* label {
+  display: block;
+  font: 1rem "Fira Sans", sans-serif;
+} */
+
+input,
+label {
+  margin: 0.4rem 0;
+}
