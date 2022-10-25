@@ -12,8 +12,8 @@
     <h2>Seccion Ventas</h2>
    
     <ul>
-        <li><a href="formulario_venta.php">Agregar venta</a></li>
-        <li><a href="mostrar_venta.php">Ver lista de ventas</a></li>
+        <li><a href="ventas/formulario.php">Agregar venta</a></li>
+        <li><a href="ventas/mostrar.php">Ver lista de ventas</a></li>
     </ul>
 
 </center>

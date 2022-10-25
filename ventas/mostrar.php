@@ -58,6 +58,15 @@
     </tbody>
     </table>
     <br>
+    <br>
+    <?php include 'funcionFechaVenta.php'; ?>
+    <form action="mostrarFiltrado.php" method="get"><br>
+        <input type="hidden" name="opcion" value="1">
+        <label for="">Mostrar ventas en la fecha: </label>
+        <?= crearCampoFechaVenta(); ?>
+        <button type="submit">Filtrar</button>
+    </form>
+    <br>
     <a href="../index.php?opcion=1">Volver</a>
 </center>
 </body>

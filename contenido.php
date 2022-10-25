@@ -10,7 +10,7 @@ switch( $opcion )
 		include("clientes/clientes.php");
 		break;
 	case 3:
-		include("ventas/ventas.php");
+		include("ventas/ventas_venta.php");
 		break;
 	case 4:
 		include("rubros/rubros.php");

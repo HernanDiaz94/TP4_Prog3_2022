@@ -13,6 +13,6 @@ if($resultado)
     HEADER ("LOCATION: mostrar.php");
 }else{
     
-        echo"alta incorrecta";
+        echo "alta incorrecta";
     }
 ?>

@@ -22,7 +22,7 @@
         <select name="rubros" id="rubros">
             
             <?php 
-                
+                include "../conexion.php";
                 $consulta = "SELECT * from rubros";
                 $ejecutar = mysqli_query($conexion,$consulta) or die(mysqli_error($conexion));
             ?>
